@@ -1,0 +1,98 @@
+* {
+    background-color: #dfe4e7;
+    font-family: sans-serif;
+
+}
+
+.container {
+    justify-content: center;
+
+    align-items: center;
+    display: flex;
+
+    height: 91vh;
+    
+    margin-top: -100px;
+    
+
+
+
+}
+
+.calcu {
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+        5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+
+}
+
+input {
+    grid-column: span 4;
+    height: 70px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff;
+    box-shadow: inset 5px 5px 12px rgba(98, 19, 19, 0.16);
+    border-radius: 30px;
+    color: rgba(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 270px;
+    border: none;
+
+
+}
+button{
+    background-color: #ecf0f3;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 12px #ffffff;
+    box-shadow: inset 5px 5px 12px rgba(98, 19, 19, 0.16);
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+   
+
+
+
+}
+#heading{
+    justify-content: center;
+    display: flex;
+    
+
+    
+
+
+}
+h1{
+    font-size: 60px;
+    color: rgb(82, 75, 75);
+    
+}
+button :hover ::before{
+    color: darkkhaki;
+    background-color: coral;
+}
+
+@media screen and (max-width:380px){
+    h1{
+        font-size: 50px;
+        
+       
+        
+    }
+.calcu{
+    margin-top: 60px;
+       
+        
+    }
+    
+}
